@@ -1,0 +1,34 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+*.p12
+
+# Never publish local or real data
+data/
+uploads/
+recordings/
+exports/
+backups/
+logs/
+*.db
+*.sqlite
+*.sqlite3
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+
+# Editors and operating system
+.obsidian/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
